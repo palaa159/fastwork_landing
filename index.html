@@ -79,16 +79,14 @@
 <body>	
 
     <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-	<script type="text/javascript">
-	    (function(d, s, id){
-	        var js, fjs = d.getElementsByTagName(s)[0];
-	        if (d.getElementById(id)) {return;}
-	        js = d.createElement(s); js.id = id;
-	        js.src = "https://connect.facebook.net/en_US/sdk.js#version=v2.2&appId=739959012779189&status=true&cookie=true&xfbml=true";
-	        fjs.parentNode.insertBefore(js, fjs);
-	    }(document, 'script', 'facebook-jssdk'));
-	</script>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=739959012779189";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 
 	<div class="hero-bg">
@@ -133,15 +131,23 @@
 					                	<input class="btn tb-btn" type="submit" value="ส่ง">
 					            	</span>
 					            </div>
-					            <!-- Your share button code -->
-							    <div class="fb-share-button" data-href="http://tinybee.co" data-layout="button_count">
-							    </div>
 					         </div>
 					     </div>
 					</form>
-
+					
 				</div>
 			</div>
+
+			<!-- Social -->
+			<div class="row">
+				<div class="col col-xs-12">
+					<div class="fb-follow" data-href="https://www.facebook.com/tinybeeth" data-layout="standard" data-show-faces="true"></div>
+					<!-- Your share button code -->
+				    <div class="fb-share-button" data-href="http://tinybee.co" data-layout="button_count">
+				    </div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 
