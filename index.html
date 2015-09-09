@@ -10,6 +10,7 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>
 		Tinybee จุดเริ่มต้นของนักศึกษาหางานฟรีแลนซ์
 	</title>
@@ -95,7 +96,7 @@
 			<div class="row" style="margin-bottom: 20px">
 				<div class="col col-xs-6">
 					<a href="/">
-						<img src="img/logo/logo.png" width="200" alt="">
+						<img src="img/logo/logo.png" width="160" alt="">
 					</a>
 				</div>
 				<div class="col col-xs-6 text-right">
@@ -118,11 +119,11 @@
 						สำหรับสมาชิก <kbd>100</kbd> ท่านแรกเท่านั้น!&nbsp;
 					</p>
 					<!-- Begin MailChimp Signup Form -->
-					<form class="bs-example bs-example-form" action="//tinybee.us11.list-manage.com/subscribe/post?u=faa3d5a8ab2dae0535d8526d6&amp;id=bc1e2a50ce" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate role="form">
+					<form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/26kuw/id/1" onsubmit="return false;">
 					    <div class="row">
 					        <div class="col-xs-9" style="float: right;">
 					            <div class="input-group">
-					            	<input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Email ของคุณ" required style="border-color: #fbb330">
+					            	<input type="email" value="" name="email" id="email" class="email form-control" id="mce-EMAIL" placeholder="Email ของคุณ" required style="border-color: #fbb330">
 					                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 						    		<div style="position: absolute; left: -5000px;">
 						    			<input type="text" name="b_faa3d5a8ab2dae0535d8526d6_bc1e2a50ce" tabindex="-1" value="">
@@ -261,7 +262,11 @@
 	</footer>
 
 	<!-- SCRIPTS -->
+	<script type='text/javascript' src='https://my.sendinblue.com/public/theme/version3/js/subscribe-validate.js'></script>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type='text/javascript'>
+    	jQuery.noConflict(true);
+	</script>
 	<script src="js/main.js"></script>
 </body>
 </html>
