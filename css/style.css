@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'DB Helvethaica';
+  src: url('../DB Helvethaica/DB Helvethaica X v3.2 2.ttf');
+}
+
+
+body {
+  font-family: 'DB Helvethaica', sans-serif;
+  font-size: 24px;
+}	
+
+
+.h1, h1 {
+    font-size: 55px;
+}
+
+.h4, h4 {
+    font-size: 28px;
+}
+
+.h6, h6 {
+    font-size: 20px;
+}
+
+.lead {
+    font-size: 40px;
+}
+
+@media (min-width: 768px)
+.lead {
+    font-size: 40px;
+}
+
+
+.form-control{
+	font-size: 20px;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
