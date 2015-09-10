@@ -10,7 +10,7 @@
    
            // when done, add hash to url
            // (default click behaviour)
-           //window.location.hash = this.hash;
+           window.location.hash = 'howitworks';
          });
 
     });
