@@ -14,3 +14,10 @@
          });
 
     });
+
+    $('#submitEmail').on('click', function(e) {
+      e.preventDefault()
+      $.post('https://my.sendinblue.com/users/subscribeembed/js_id/26kuw/id/1', function() {
+        
+      })
+    })

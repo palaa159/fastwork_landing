@@ -28,7 +28,7 @@
 		}
 		footer {
 			background: #414141;
-			padding-bottom: 40px;
+			padding-bottom: 30px;
 		}
 		.text-white {
 			color: #fff;
@@ -49,7 +49,7 @@
 		}
 		.badge-how-it-works {
 			font-size: 20px;
-			padding: 15px 20px;
+			padding: 15px 22px;
 			border-radius: 50%;
 			background: #BFBFBF;
 		}
@@ -76,6 +76,9 @@
 		}
 		.large-font-button {
 			font-size: 34px;
+		}
+		.how-it-works-item {
+			height: 50px;
 		}
 
 	</style>
@@ -126,7 +129,7 @@
 					<!-- Begin MailChimp Signup Form -->
 					<form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/26kuw/id/1" method="post">
 					    <div class="row">
-					        <div class="col-xs-9" style="float: right;">
+					        <div class="col-xs-10" style="float: right;">
 					            <div class="input-group">
 					            	<input type="hidden" name="js_id" id="js_id" value="26kuw">
 					            	<input type="hidden" name="listid" id="listid" value="2">
@@ -138,8 +141,7 @@
 						    			<input type="text" name="b_faa3d5a8ab2dae0535d8526d6_bc1e2a50ce" tabindex="-1" value="">
 						    		</div>
 					            	<span class="input-group-btn">
-					                	<!-- <input class="btn tb-btn" type="submit" value="ส่ง"> -->
-					                	<button class="btn tb-btn" type="submit" data-editfield="subscribe">ส่ง</button>
+					                	<button id="submitEmail" class="btn tb-btn" type="submit" data-editfield="subscribe">ส่ง</button>
 					            	</span>
 					            </div>
 					         </div>
@@ -236,7 +238,7 @@
 			<div class="col hidden-xs col-sm-1"></div>
 			<div class="col col-xs-4 col-sm-2 text-center">
 				<img src="img/how-it-works/post.png" height="64" alt="">
-				<h4 style="margin-top: 20px;">โพสต์งาน</h4>
+				<h4 class="how-it-works-item">โพสต์งาน</h4>
 				<span class="badge badge-how-it-works">1</span>
 			</div>
 			<div class="col hidden-xs col-sm-1 no-padding-right">
@@ -247,7 +249,7 @@
 			</div>
 			<div class="col col-xs-4 col-sm-2 text-center">
 				<img src="img/how-it-works/get_discovered.png" height="64" alt="">
-				<h4 style="margin-top: 20px;">ให้ลูกค้าเห็นมากขึ้น</h4>
+				<h4 class="how-it-works-item">ให้ลูกค้าเห็นมากขึ้น</h4>
 				<span class="badge badge-how-it-works">2</span>
 			</div>
 			<div class="col hidden-xs col-sm-1 no-padding-right">
@@ -258,50 +260,75 @@
 			</div>
 			<div class="col col-xs-4 col-sm-2 text-center">
 				<img src="img/how-it-works/cash.png" height="64" alt="">
-				<h4 style="margin-top: 20px;">ส่งงานและรับเงิน</h4>
+				<h4 class="how-it-works-item">ส่งงานและรับเงิน</h4>
 				<span class="badge badge-how-it-works">3</span>
 			</div>
 			<div class="col hidden-xs col-sm-1"></div>
 		</div>
 		<div class="row" style="margin-top: 40px">
 			<div class="col col-xs-12 text-center">
-				<button class="btn btn-orange btn-lg text-white large-font-button">
+				<a href="#" class="btn btn-orange btn-lg text-white large-font-button">
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สมัครเลย&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				</button>
+				</a>
 			</div>
 		</div>
 	</div>
 	<footer style="margin-top: 40px">
 		<div class="container">
+			<div class="row" style="padding-top: 40px">
+				<div class="col col-xs-12 col-sm-2 text-left">
+					<img src="img/tb.png" height="100" alt="">
+				</div>
+				<div class="col col-xs-12 col-sm-4 text-white">
+					Join Our Team
+					<br>
+					Contact Us
+				</div>
+				<div class="col col-xs-12 col-sm-6 text-right">
+					<h2 class="text-white" style="margin-top: 0px;">
+						Stay Tuned
+					</h2>
+					<a target="_blank" href="http://facebook.com/tinybeeth">
+ 				 	<img src="img/facebook_logo.gif" height="48" alt="" style="padding-right: 10px;">
+ 				 	</a>
+ 				 	<a target="_blank" href="http://twitter.com/tinybeeth">
+  					<img src="img/twitter_logo.gif" height="48" alt="" style="padding-right: 10px;">
+  					</a>
+  					<a target="_blank" href="http://instagram.com/tinybee">
+  					<img src="img/instagram_logo.gif" height="48" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- <div class="container">
 			<div class="row" style="margin-top: 50px">
 				<div class="col-md-3">
 				</div>
   				<div class="col-md-3 text-center">
 
   					<img src="img/tb.png" height="100" alt="">
-  				<p style="margin-top: 40px"><a href="#">Join Out Team</a></p>
+  				<p style="margin-top: 40px"><a href="#">Join Our Team</a></p>
   				<p><a href="#">Contact Us</a></p>
 
   			</div>
 
- 				 <div class="col-md-3  text-center">
- 				 	<h1 class="text-white break-word">Stay Tuned</h1>
- 				 	<br>
- 				 	<a href="http://facebook.com/tinybeeth">
- 				 	<img src="img/facebook_logo.gif" height="60" alt="" style="padding-right: 10px;">
+ 				 <div class="col-md-3 text-left">
+ 				 	<h1 class="text-white break-word">Stay Tuned
+ 				 	</h1>
+ 				 	<a target="_blank" href="http://facebook.com/tinybeeth">
+ 				 	<img src="img/facebook_logo.gif" height="48" alt="" style="padding-right: 10px;">
  				 	</a>
- 				 	<a href="http://twitter.com/tinybeeth">
-  					<img src="img/twitter_logo.png" height="60" alt="" style="padding-right: 10px;">
+ 				 	<a target="_blank" href="http://twitter.com/tinybeeth">
+  					<img src="img/twitter_logo.gif" height="48" alt="" style="padding-right: 10px;">
   					</a>
-  					<a href="http://instagram.com/tinybee">
-  					<img src="img/instagram_logo.png" height="60" alt="">
+  					<a target="_blank" href="http://instagram.com/tinybee">
+  					<img src="img/instagram_logo.gif" height="48" alt="">
   				</a>
 
  				 </div>
  				 <div class="col-md-3">
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</footer>
 
 	<!-- SCRIPTS -->
