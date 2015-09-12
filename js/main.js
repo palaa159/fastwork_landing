@@ -15,7 +15,7 @@ $("#btn-how-it-works").on('click', function(e) {
 });
 
 $('#btn-register').on('click', function() {
-  console.log('click')
+  // console.log('click')
   $('#email').focus();
 });
 
