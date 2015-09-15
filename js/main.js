@@ -37,17 +37,17 @@ $('#submitEmail').on('click', function(e) {
 
       switch (obj.result.result) {
         case "success":
-          alert("เรียบร้อย ขอบคุณครับ!");
+          bootbox.alert("เรียบร้อย ขอบคุณครับ!");
           location.reload()
           break;
         case "invalidEmail":
-          alert("กรุณาใส่อีเมลให้ถูกนะครับ");
+          bootbox.alert("กรุณาใส่อีเมลให้ถูกนะครับ");
           break;
         case "emailExist":
-          alert("เคยลงทะเบียนแล้วนะครับ :)");
+          bootbox.alert("เคยลงทะเบียนแล้วนะครับ :)");
           break;
         default:
-          alert("อะไรบางอย่างผิดพลาดนะครับ :(");
+          bootbox.alert("อะไรบางอย่างผิดพลาดนะครับ :(");
           break;
 
       }
