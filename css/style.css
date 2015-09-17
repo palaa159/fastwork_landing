@@ -1,48 +1,47 @@
+/*
+    page background:
+    page1: #FFFCF5
+    page2: #539BB7
+    page3: #7FCAA7
+    page4: #FFFCF5
+    footer: #6B798D
+
+ */
+
 @font-face {
   font-family: 'DB Helvethaica';
-  src: url('../DB Helvethaica/DB Helvethaica X v3.2 2.ttf');
+  src: url('../fonts/DB Helvethaica X v3.2 2.ttf');
 }
 
+@font-face {
+  font-family: 'DB Helvethaica Mon';
+  src: url('../fonts/DB HelvethaicaMon X Bd v3.2 4.ttf');
+}
+
+@font-face {
+  font-family: 'VAG';
+  src: url('../fonts/VAG Round.ttf');
+}
 
 body {
   font-family: 'DB Helvethaica', sans-serif;
-  font-size: 24px;
-    line-height: 1.1;
-    color: #333;
-    background-color: #fff;
 }	
 
-
-.h1, h1 {
-    font-size: 55px;
-    line-height: 0.8;
+h1 {
+    font-family: 'DB Helvethaica Mon';
+    font-size: 6em;
+    line-height: 0.8em;
 }
 
-.h4, h4 {
-    font-size: 28px;
+h2 {
+    font-size: 3.5em;
 }
 
-.h6, h6 {
-    font-size: 20px;
+.tb-btn {
+    border-color: #fbb330;
+    background: #fbb330;
+    color: #fff;
 }
-
-.lead {
-    font-size: 30px;
-    line-height: 1.1;
-}
-
-@media (min-width: 768px)
-.lead {
-    font-size: 40px;
-}
-
-
-.form-control{
-	font-size: 28px;
-   height: 60px;
-}
-
-
 
 .btn {
     display: inline-block;
@@ -66,34 +65,73 @@ body {
     border-radius: 4px;
 }
 
-.btn-group-lg>.btn, .btn-lg {
-    padding: 10px 16px;
-    font-size: 24px;
-    line-height: 1.3333333;
-    border-radius: 6px;
+.form-control {
+    font-size: 28px;
+    height: 60px;
 }
 
-
-a {
-    color: #FFFFFF;
+.page {
+    display: none;
+    min-height: 700px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-/* unvisited link */
-a:link {
-    color: #FFFFFF;
+.text-white {
+    color: #fff !important;
 }
 
-/* visited link */
-a:visited {
-    color: #FFFFFF;
+.vag {
+    font-family: 'VAG';
+    font-size: 83%;
 }
 
-/* mouse over link */
-a:hover {
-    color: #FFFFFF;
+/* Media Queries */
+/* Portrait */
+@media only screen and (max-device-width: 667px) { 
+    .page {
+        position: static;
+        height: auto !important;
+    }
+    h1 {
+        font-size: 5em;
+        line-height: 0.8em;
+    }
 }
 
-/* selected link */
-a:active {
-    color: #FFFFFF;
+#page1 {
+    background: #FFFCF5;
+}
+#page2 {
+    background: #539BB7;
+    padding-top: 120px;
+}
+#page3 {
+    background: #7FCAA7;
+    padding-top: 120px;
+}
+#page4 {
+    background: #FFFCF5;
+    padding-top: 120px;
+    /*border-bottom: 4px solid #fbb330;*/
+}
+
+footer {
+    background: #6B798D;
+    width: 100%;
+    height: auto !important;
+    min-height: 100px !important;
+    padding-bottom: 0px !important;
+    border-top: 2px dashed #fbb330;
+}
+
+.follow a {
+    margin-right: 10px;
+}
+
+.follow a img {
+    border-radius: 50%;
 }
