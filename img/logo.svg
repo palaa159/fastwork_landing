@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="206.227px" height="57.856px" viewBox="0 0 206.227 57.856" enable-background="new 0 0 206.227 57.856"
+	 xml:space="preserve">
+<text transform="matrix(1 0 0 1 0 46)"><tspan x="0" y="0" fill="#5C5C5C" font-family="'VAGRound'" font-size="48">tinybe</tspan><tspan x="124.846" y="0" fill="#5C5C5C" font-family="'VAGRound'" font-size="48">e</tspan></text>
+<path fill="none" stroke="#FBB330" stroke-width="3" stroke-miterlimit="10" d="M196.528,21.403
+	c4.633-2.463,6.391-8.215,3.928-12.848c-2.463-4.632-8.215-6.391-12.848-3.928c-4.632,2.463-9.237,9.729-6.774,14.361
+	C183.297,23.621,191.896,23.866,196.528,21.403z"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M181.068,11c3.038,0,8.34-1.194,8.34-4.232c0-3.037-5.303-6.768-8.34-6.768s-5.5,2.462-5.5,5.5
+			S178.031,11,181.068,11z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<rect x="170.568" y="-5" clip-path="url(#SVGID_2_)" fill="#FFFCF5" width="23.84" height="21"/>
+</g>
+<path fill="none" stroke="#FBB330" stroke-width="3" stroke-miterlimit="10" d="M181.068,11c3.038,0,8.34-1.194,8.34-4.232
+	S184.106,0,181.068,0s-5.5,2.463-5.5,5.5C175.568,8.538,178.031,11,181.068,11z"/>
+<path fill="none" stroke="#FBB330" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M175.574,23.516
+	c0,0,0.462-0.563,0.722-0.758c0.275-0.207,1.278-0.758,1.278-0.758"/>
+<path fill="none" stroke="#FBB330" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M164.568,39.015
+	c0,0,1.257-1.093,1.82-1.75c0.437-0.51,1.18-1.75,1.18-1.75"/>
+<path fill="none" stroke="#FBB330" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M189.409,7
+	c0,0,3.575,2.438,4.967,4.964c0.235,0.427,0.661,1.432,0.833,1.994c0.872,2.841,0.749,6.958,0.749,6.958"/>
+<path fill="none" stroke="#FBB330" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M183.568,11
+	c0,0,3.091,2.217,4.294,4.514c0.203,0.388,0.571,1.302,0.72,1.813c0.753,2.583,0.361,4.674,0.361,4.674"/>
+<path fill="none" stroke="#FBB330" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M170.068,30.5
+	c0,0,0.583-1.352,1.012-2c0.454-0.686,1.488-1.985,1.488-1.985"/>
+</svg>
