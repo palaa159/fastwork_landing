@@ -24,12 +24,14 @@ $(function() {
 
   var adjustPageSize = function() {
     $('.page').hide()
-    $.each($('.page'), function(i, v) {
+  $('.page').css({"min-height": window.innerHeight});
+
+ /*    $.each($('.page'), function(i, v) {
       $(v).css({
         top: (i * 100) + '%',
         height: window.innerHeight
       })
-    });
+    }); */
     $('.page').fadeIn('fast')
   };
 
