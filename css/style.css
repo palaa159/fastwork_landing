@@ -37,9 +37,13 @@ h2 {
     font-size: 3.5em;
 }
 
+.left-padding {
+    padding-left: 40px;
+}
+
 .tb-btn {
-    border-color: #fbb330;
-    background: #fbb330;
+    border-color: #E04F5F;
+    background: #E04F5F;
     color: #fff;
 }
 
@@ -97,8 +101,14 @@ h2 {
         height: auto !important;
     }
     h1 {
-        font-size: 5em;
+        font-size: 3.5em;
         line-height: 0.8em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .left-padding {
+        padding-left: 20px;
     }
 }
 
@@ -107,15 +117,15 @@ h2 {
 }
 #page2 {
     background: #539BB7;
-    padding-top: 120px;
+    padding-top: 80px;
 }
 #page3 {
     background: #7FCAA7;
-    padding-top: 120px;
+    padding-top: 80px;
 }
 #page4 {
     background: #FFFCF5;
-    padding-top: 120px;
+    padding-top: 80px;
     /*border-bottom: 4px solid #fbb330;*/
 }
 
@@ -124,8 +134,8 @@ footer {
     width: 100%;
     height: auto !important;
     min-height: 100px !important;
-    padding-bottom: 0px !important;
-    border-top: 2px dashed #fbb330;
+    padding-bottom: 20px !important;
+    /*border-top: 2px dashed #fbb330;*/
 }
 
 .follow a {
