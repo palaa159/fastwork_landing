@@ -34,11 +34,11 @@ h1 {
 }
 
 h2 {
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
 
 .left-padding {
-    padding-left: 40px;
+    padding-left: 100px;
 }
 
 .tb-btn {
@@ -95,7 +95,7 @@ h2 {
 
 /* Media Queries */
 /* Portrait */
-@media only screen and (max-device-width: 667px) { 
+@media only screen and (max-width: 667px) { 
     .page {
         position: static;
         height: auto !important;
@@ -108,7 +108,7 @@ h2 {
         font-size: 2em;
     }
     .left-padding {
-        padding-left: 20px;
+        padding-left: 40px;
     }
 }
 
