@@ -7,7 +7,7 @@ $(function() {
         if (target.length) {
           $('html,body').animate({
             scrollTop: target.offset().top
-          }, 1000);
+          }, 500);
           return false;
         }
       }
@@ -57,7 +57,8 @@ $(function() {
         switch (obj.result.result) {
           case "success":
             bootbox.alert("เรียบร้อย ขอบคุณครับ!");
-            location.reload()
+            // location.reload()
+            $('#email').val(""); 
             break;
           case "invalidEmail":
             bootbox.alert("กรุณาใส่อีเมลให้ถูกนะครับ");

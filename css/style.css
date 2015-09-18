@@ -126,7 +126,13 @@ h2 {
 #page4 {
     background: #FFFCF5;
     padding-top: 80px;
+    padding-bottom: 40px;
     /*border-bottom: 4px solid #fbb330;*/
+}
+
+.apply {
+    background: #E04F5F;
+    color: #fff;
 }
 
 footer {
