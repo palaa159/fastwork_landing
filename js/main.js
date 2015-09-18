@@ -59,7 +59,8 @@ $(function() {
         switch (obj.result.result) {
           case "success":
             bootbox.alert("เรียบร้อย ขอบคุณครับ!");
-            location.reload()
+			$('#email').val(""); 
+            //location.reload()
             break;
           case "invalidEmail":
             bootbox.alert("กรุณาใส่อีเมลให้ถูกนะครับ");

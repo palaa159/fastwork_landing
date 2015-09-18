@@ -93,6 +93,10 @@ h2 {
     font-size: 83%;
 }
 
+.bootbox-body{
+font-size: 40px
+}
+
 /* Media Queries */
 /* Portrait */
 @media only screen and (max-device-width: 667px) { 
