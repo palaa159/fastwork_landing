@@ -37,6 +37,10 @@ h2 {
     font-size: 2.5em;
 }
 
+h3 {
+    font-size: ;
+}
+
 .left-padding {
     padding-left: 100px;
 }
@@ -95,7 +99,7 @@ h2 {
 
 /* Media Queries */
 /* Portrait */
-@media only screen and (max-width: 667px) { 
+@media only screen and (max-width: 1000px) { 
     .page {
         position: static;
         height: auto !important;
