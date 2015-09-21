@@ -60,11 +60,12 @@ $(function() {
 
         switch (obj.result.result) {
           case "success":
-            bootbox.alert("เรียบร้อย ขอบคุณครับ!");
+            // bootbox.alert("เรียบร้อย ขอบคุณครับ!");
             $.get('newSignup.php', function(res) {
               setTimeout(function() {
-                location.reload();
-              }, 2500);
+                location.href = "thankyou.html"
+                $('#email').val('');
+              }, 500);
             });
             break;
           case "invalidEmail":
@@ -72,6 +73,7 @@ $(function() {
             break;
           case "emailExist":
             bootbox.alert("เคยลงทะเบียนแล้วนะครับ :)");
+            $('#email').val('');
             break;
           default:
             bootbox.alert("อะไรบางอย่างผิดพลาดนะครับ :(");
