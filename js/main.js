@@ -45,7 +45,7 @@ $(function() {
   $('#submitEmail').on('click', function(e) {
     e.preventDefault();
     var $email = $('#email').val();
-
+    $('#submitEmail').html('กำลังส่ง')
     $.post("https://my.sendinblue.com/users/subscribeembed/js_id/26kuw/id/1", {
         js_id: "26kuw",
         listid: "2",
@@ -61,10 +61,10 @@ $(function() {
         switch (obj.result.result) {
           case "success":
             bootbox.alert("เรียบร้อย ขอบคุณครับ!");
-            // location.reload()
-            $('#email').val(""); 
-            $.get('http://tinybee.co/newSignup.php', function() {
-
+            $.get('newSignup.php', function(res) {
+              setTimeout(function() {
+                location.reload();
+              }, 2500);
             });
             break;
           case "invalidEmail":

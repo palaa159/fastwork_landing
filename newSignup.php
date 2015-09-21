@@ -18,5 +18,7 @@
 		$jsonToSave = Array('n' => $nOfUsers);
 		$jsonToSave = json_encode($jsonToSave);
 		file_put_contents('signups.json', $jsonToSave);
+
+		echo $nOfUsers;
 	}
 ?>
