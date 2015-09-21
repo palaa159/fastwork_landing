@@ -1,5 +1,6 @@
 <?php 
-	if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+	$value = isset($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : null;
+	if ($value === 'GET') {
 		// Increase number
 		// 
 		// echo "yeah";
@@ -14,7 +15,7 @@
 		file_put_contents('signups.json', $jsonToSave);
 
     // …
-	} else if($_SERVER['REQUEST_METHOD'] === 'POST') {
+	} else if($value === 'POST') {
 		// Get "n" and return
 		$number = file_get_contents("signups.json");
 		$json = json_decode($number, true);
