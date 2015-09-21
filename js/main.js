@@ -63,6 +63,9 @@ $(function() {
             bootbox.alert("เรียบร้อย ขอบคุณครับ!");
             // location.reload()
             $('#email').val(""); 
+            $.get('http://tinybee.co/newSignup.php', function() {
+
+            });
             break;
           case "invalidEmail":
             bootbox.alert("กรุณาใส่อีเมลให้ถูกนะครับ");
