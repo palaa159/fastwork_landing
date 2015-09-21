@@ -148,10 +148,18 @@ footer {
     /*border-top: 2px dashed #fbb330;*/
 }
 
+.tb-orange{
+    color: #fbb330;
+}
+
 .follow a {
     margin-right: 10px;
 }
 
 .follow a img {
     border-radius: 50%;
+}
+
+.text-muted {
+    color: #4a4a4a !important;
 }

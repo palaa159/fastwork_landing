@@ -16,7 +16,10 @@ $(function() {
   // Setup page
   $(window).on('load', function() {
     adjustPageSize()
-  })
+    $.post('newSignup.php', function(result) {
+      $('#nRegis').html(result);
+    });
+  });
 
   $(window).on('resize', function() {
     adjustPageSize()
