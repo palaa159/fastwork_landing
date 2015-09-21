@@ -17,8 +17,8 @@ $(function() {
   $(window).on('load', function() {
     adjustPageSize()
     $.post('newSignup.php', function(result) {
-      // $('#nRegis').html(result);
-      console.log(result)
+      $('#nRegis').html(result);
+      // console.log(result)
     });
   });
 
