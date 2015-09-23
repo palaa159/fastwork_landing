@@ -15,12 +15,12 @@
 
 @font-face {
   font-family: 'DB Helvethaica Mon';
-  src: url('../fonts/DB HelvethaicaMon X Bd v3.2 4.ttf');
+  src: url('../fonts/DB Helvethaica X Bd v3.2 2.ttf');
 }
 
 @font-face {
   font-family: 'VAG';
-  src: url('../fonts/VAG Round.ttf');
+  src: url('../fonts/VAG Round.otf');
 }
 
 body {
@@ -149,7 +149,7 @@ footer {
 }
 
 .tb-orange{
-    color: #fbb330;
+    color: #2bace2;
 }
 
 .follow a {
