@@ -41,6 +41,10 @@ h3 {
     font-size: ;
 }
 
+.fwTitle {
+    font-size: 5em;
+}
+
 .left-padding {
     padding-left: 100px;
 }
@@ -126,6 +130,9 @@ h3 {
         bottom: 10%;
         width: 100%;
         text-align: center;
+    }
+    .fwTitle {
+        font-size: 3.2em;
     }
 }
 
