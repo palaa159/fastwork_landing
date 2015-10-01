@@ -42,7 +42,15 @@
 
 </head>
 <body style="background: #fff">
-	<div class="container" style="padding-top: 15%">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=739959012779189";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="container" style="padding-top: 12%">
 		<div class="row">
 			<div class="col col-xs-12 text-center">
 				<h1>ขอบคุณครับ :)</h1>
@@ -51,12 +59,16 @@
 					<br>เตรียมรอรับอีเมล์จาก Fastwork ได้เลย!
 				</h3>
 				<br>
-				<a href="/">
+				<a href="http://facebook.com/fastworkco">
 					<img src="img/fw-round.png" width="64" alt="">
 				</a>
 				<br><br>
 				<h4 style="line-height: 1.15em;"><span class="vag">Did you know?</span><br>"คำว่า Freelance ถูกใช้ครั้งแรกในปี ค.ศ. 1820 ในบทละครเรื่อง Ivanhoe"</h4>
 			</div>
+		</div>
+		<br>
+		<div class="row text-center">
+			<div class="fb-like" data-href="http://facebook.com/fastworkco" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 		</div>
 	</div>
 	<!-- Facebook Conversion Code for Prelaunch LP -->
