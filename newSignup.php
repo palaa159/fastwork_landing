@@ -12,7 +12,11 @@
 		$number = file_get_contents("signups.json");
 		$json = json_decode($number, true);
 		$nOfUsers = $json["n"];
-		$nOfUsers++;
+		if($nOfUsers > 950) {
+                   $nOfUsers = 923;
+                } else {
+                   $nOfUsers++;
+                }
 
 		// Save to file
 		$jsonToSave = Array('n' => $nOfUsers);
