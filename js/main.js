@@ -1,6 +1,6 @@
 $(function() {
   $(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
+    $('.go-to-page').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -28,6 +28,7 @@ $(function() {
 
   var adjustPageSize = function() {
     $('.page').hide()
+    $('footer').hide()
     $.each($('.page'), function(i, v) {
       $(v).css({
         top: (i * 100) + '%',
@@ -35,6 +36,7 @@ $(function() {
       })
     });
     $('.page').fadeIn('fast')
+    $('footer').fadeIn('fast')
   };
 
   $('#btn-register').on('click', function() {

@@ -108,6 +108,10 @@ h3 {
     text-align: center;
 }
 
+.lead {
+    font-size: 22px;
+}
+
 /* Media Queries */
 /* Portrait */
 @media only screen and (max-width: 1000px) { 
@@ -182,4 +186,8 @@ footer {
 
 .text-muted {
     color: #4a4a4a !important;
+}
+
+#page-how-it-works {
+    padding: 20px 0px;
 }
