@@ -10,12 +10,15 @@
 
 @font-face {
   font-family: 'DB Helvethaica';
-  src: url('../fonts/DB Helvethaica X v3.2 2.ttf');
+  src: 
+    url('../fonts/sukhumvitset-text-web.ttf') format('ttf'),
+    url('../fonts/sukhumvitset-text-web.woff') format('woff'),
+    url('../fonts/sukhumvitset-text-web.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'DB Helvethaica Mon';
-  src: url('../fonts/DB Helvethaica X Bd v3.2 2.ttf');
+  src: url('../fonts/BoonTook-Ultra.ttf');
 }
 
 @font-face {
@@ -28,9 +31,10 @@ body {
 }	
 
 h1 {
-    font-family: 'DB Helvethaica Mon';
-    font-size: 6em;
+    font-family: 'DB Helvethaica';
+    font-size: 4em;
     line-height: 0.8em;
+    font-weight: 900;
 }
 
 h2 {
@@ -42,7 +46,8 @@ h3 {
 }
 
 .fwTitle {
-    font-size: 5em;
+    font-size: 3em;
+    line-height: 1em;
 }
 
 .left-padding {
@@ -59,7 +64,7 @@ h3 {
     display: inline-block;
     padding: 4px 22px;
     margin-bottom: 0;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
@@ -78,8 +83,8 @@ h3 {
 }
 
 .form-control {
-    font-size: 28px;
-    height: 60px;
+    font-size: 19px;
+    height: 50px;
 }
 
 .page {
@@ -97,8 +102,8 @@ h3 {
 }
 
 .vag {
-    font-family: 'VAG';
-    font-size: 83%;
+    font-family: 'DB Helvethaica';
+    font-size: 100%;
 }
 
 .learnMore {
@@ -109,7 +114,7 @@ h3 {
 }
 
 .lead {
-    font-size: 22px;
+    font-size: 26px;
 }
 
 /* Media Queries */
@@ -120,14 +125,14 @@ h3 {
         height: auto !important;
     }
     h1 {
-        font-size: 3.5em;
-        line-height: 0.8em;
+        font-size: 2.2em;
+        line-height: 1em;
     }
     h2 {
         font-size: 2em;
     }
     .left-padding {
-        padding-left: 40px;
+        padding-left: 20px;
     }
     .learnMore {
         position: static;
@@ -138,6 +143,19 @@ h3 {
     .fwTitle {
         font-size: 3.2em;
     }
+    .lead {
+        font-size: 22px;
+    }
+    ul.lead {
+        padding-left: 5px;
+    }
+    #customOl {
+        padding-left: 40px !important;
+    }
+}
+
+#customOl {
+    padding-left: 80px;
 }
 
 #page1 {
@@ -168,7 +186,9 @@ footer {
     width: 100%;
     height: auto !important;
     min-height: 100px !important;
-    padding-bottom: 20px !important;
+    padding-bottom: 10px !important;
+    margin-top: 70px;
+    padding-top: 10px !important;
     /*border-top: 2px dashed #fbb330;*/
 }
 
@@ -190,4 +210,20 @@ footer {
 
 #page-how-it-works {
     padding: 20px 0px;
+}
+
+.bg-info {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.mark, mark {
+    background: #FFE585;
+    padding: 0px;
+}
+
+.stickBottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
 }

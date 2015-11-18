@@ -13,10 +13,10 @@
 				</a>
 			</div>
 			<div class="col col-xs-6 text-right hidden-xs">
-				<a href="/how-it-works.php" type="button" class="btn btn-default btn-sm" style="padding: 0px 22px; font-size: 30px; border-color: #2bace2;">FW ใช้ยังไง?</a>
+				<a href="/how-it-works.php" type="button" class="btn btn-info btn-sm" style="padding: 0px 22px; font-size: 24px; border-color: #2bace2; border-width: 2px; line-height: 1.8em;">FW ใช้ยังไง?</a>
 			</div>
 			<div class="col col-xs-6 text-right visible-xs">
-				<a href="/how-it-works.php" type="button" class="btn btn-default btn-sm" style="padding: 0px 16px; font-size: 22px; border-color: #2bace2;">FW ใช้ยังไง?</a>
+				<a href="/how-it-works.php" type="button" class="btn btn-info btn-sm" style="padding: 0px 16px; font-size: 20px; border-color: #2bace2; border-width: 2px; line-height: 1.4em;">FW ใช้ยังไง?</a>
 			</div>
 		</div>
 		<br><br>
@@ -33,8 +33,8 @@
 						<br>
 						<span>จ้างง่าย จ่ายเร็ว!</span>
 					</h1>
-					<h2 class="text-muted">
-						สมัครเลยวันนี้พร้อมรับสิทธิพิเศษ<br>สำหรับสมาชิก 1,000 ท่านแรกเท่านั้น!<br>
+					<h2 class="text-muted" style="font-size: 2em;">
+						<!-- สมัครเลยวันนี้พร้อมรับสิทธิพิเศษ<br>สำหรับสมาชิก 1,000 ท่านแรกเท่านั้น!<br> -->
 						<span class="tb-orange">(สมัครไปแล้ว </span>
 						<span class="tb-orange" id="nRegis"></span>
 						<span class="tb-orange"> คน)</span>
@@ -42,21 +42,22 @@
 					<br>
 					<form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/26kuw/id/1" method="post">
 					    <div class="row">
-					        <div class="col-xs-10">
-					            <div class="input-group">
+					        <div class="col-xs-12">
+					            <div class="form-inline">
 					            	<input type="hidden" name="js_id" id="js_id" value="26kuw">
 					            	<input type="hidden" name="listid" id="listid" value="2">
 					            	<input type="hidden" name="from_url" id="from_url" value="yes">
 					            	<input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
+					            	<input type="text" value="" name="job" id="job" class="form-control" id="mce-JOB" placeholder="เบอร์โทรศัพท์" minlength="10" maxlength="10" required style="border-color: #E04F5F">
 					            	<input type="email" value="" name="email" id="email" class="email form-control" id="mce-EMAIL" placeholder="Email ของคุณ" required style="border-color: #E04F5F">
 					                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
 						    		<div style="position: absolute; left: -5000px;">
 						    			<input type="text" name="b_faa3d5a8ab2dae0535d8526d6_bc1e2a50ce" tabindex="-1" value="">
 						    		</div>
-					            	<span class="input-group-btn">
-					                	<button id="submitEmail" class="btn tb-btn" type="submit" data-editfield="subscribe">ส่ง</button>
-						       	</span>
 					            </div>
+					            <span class="input-group-btn">
+				                	<button id="submitEmail" style='margin-top: 15px;' class="btn tb-btn" type="submit" data-editfield="subscribe">สมัคร</button>
+					       		</span>
 						<h4 style="color: grey">*สำหรับผู้ที่มีอายุ 18 ปีขึ้นไป</h4>
 					         </div>
 					     </div>
@@ -74,12 +75,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="learnMore">
+		<!-- <div class="learnMore">
 			<a href="#page2" class="text-muted go-to-page">
 				<h3>ดูรายละเอียด</h3>
 				<img src="/img/see-more.png" width="40" alt="">
 			</a>
-		</div>
+		</div> -->
+	<!--
 	</div>
 	<div id="page2" class="page">
 		<div class="container">
@@ -169,6 +171,10 @@
 			</div>
 		</div>
 	</div>
+	-->
+	<script>
+		// fbq('track', "PageView");
+	</script>
 <?php 
 	$howItWorks = false;
 	include 'includes/footer.php' 

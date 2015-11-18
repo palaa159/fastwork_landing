@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col col-xs-12 col-sm-4 text-center follow">
-					<h2 class="text-white">
+					<h4 class="text-white">
 						<span class="vag">Contact Us</span>
 					</h2>
 					<a href="mailto:hello@fastwork.co">
@@ -10,7 +10,7 @@
 					</a>
 				</div>
 				<div class="col col-xs-12 col-sm-4 text-center follow">
-					<h2 class="text-white">
+					<h4 class="text-white">
 						<span class="vag">Join Our Team</span>
 					</h2>
 					<a href="mailto:hello@fastwork.co">
@@ -18,7 +18,7 @@
 					</a>
 				</div>
 				<div class="col col-xs-12 col-sm-4 text-center follow">
-					<h2 class="text-white">
+					<h4 class="text-white">
 						<span class="vag">Follow Us</span>
 					</h2>
 					<a href="https://www.facebook.com/fastworkco" target="_blank">
@@ -58,25 +58,7 @@
 	  ga('send', 'pageview');
 
 	</script>
-	<script>
-		(function() {
-		var _fbq = window._fbq || (window._fbq = []);
-		if (!_fbq.loaded) {
-		var fbds = document.createElement('script');
-		fbds.async = true;
-		fbds.src = '//connect.facebook.net/en_US/fbds.js';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(fbds, s);
-		_fbq.loaded = true;
-		}
-		_fbq.push(['addPixelId', '1471716896470883']);
-		})();
-		window._fbq = window._fbq || [];
-		window._fbq.push(['track', 'PixelInitialized', {}]);
-	</script>
 
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6037712191182&amp;cd[value]=0.01&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
-	<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1471716896470883&amp;ev=PixelInitialized" /></noscript>
 	<script type='text/javascript' src='https://my.sendinblue.com/public/theme/version3/js/subscribe-validate.js'></script>
 </body>
 </html>

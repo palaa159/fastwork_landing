@@ -40,6 +40,23 @@
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+	fbq('init', '1471716896470883');
+	// fbq('track', 'CompleteRegistration');
+	// fbq('track', "PageView");
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=1471716896470883&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Facebook Pixel Code -->
+
 </head>
 <body style="background: #fff">
 	<div id="fb-root"></div>
@@ -63,30 +80,21 @@
 					<img src="img/fw-round.png" width="64" alt="">
 				</a>
 				<br><br>
+				<h4 style="color: #2bace2">อย่าลืมกด Like เพจของเราเพื่อติดตามข่าวสารและสาระความรู้ดีๆนะครับ</h4>
+				
 				<!-- <h4 style="line-height: 1.15em;"><span class="vag">Did you know?</span><br>"คำว่า Freelance ถูกใช้ครั้งแรกในปี ค.ศ. 1820 ในบทละครเรื่อง Ivanhoe"</h4> -->
 			</div>
 		</div>
 		<br>
 		<div class="row text-center">
 			<div class="fb-like" data-href="http://facebook.com/fastworkco" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-			<h4 style="color: #2bace2">อย่าลืมกด Like เพจของเราเพื่อติดตามข่าวสารและสาระความรู้ดีๆนะครับ</h4>
 		</div>
 	</div>
 	<!-- Facebook Conversion Code for Prelaunch LP -->
 	<script>
-		(function() {
-		var _fbq = window._fbq || (window._fbq = []);
-		if (!_fbq.loaded) {
-		var fbds = document.createElement('script');
-		fbds.async = true;
-		fbds.src = '//connect.facebook.net/en_US/fbds.js';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(fbds, s);
-		_fbq.loaded = true;
-		}
-		})();
-		window._fbq = window._fbq || [];
-		window._fbq.push(['track', '6037712191182', {'value':'0.01','currency':'USD'}]);
+		// CompleteRegistration
+		// Track when a registration form is completed (ex. complete subscription, sign up for a service)
+		fbq('track', 'CompleteRegistration');
 	</script>
 </body>
 </html>
